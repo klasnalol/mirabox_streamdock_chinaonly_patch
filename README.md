@@ -43,6 +43,7 @@ python patch.py StreamDock.exe
 
 ## ⚠️ Warnings
 
+WAS TESTED ON 3.10.193.0615 version
 * Always **back up your original `.exe`** before patching.
 * This patch assumes the binary was not packed or modified.
 * If the byte at offset `0x26BBE0` is **not `75`**, do **not apply** the patch — your version may differ.
